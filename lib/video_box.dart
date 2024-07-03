@@ -184,7 +184,7 @@ class _VideoBoxState extends State<VideoBox> with TickerProviderStateMixin {
     controller.theme ??= _theme.copyWith(
       iconTheme: IconThemeData(color: Colors.white),
       textTheme: _theme.textTheme.copyWith(
-        bodyLarge: _theme.textTheme.bodyLarge!.copyWith(color: Colors.white),
+        bodyLarge: _theme.textTheme.bodyLarge.copyWith(color: Colors.white),
       ),
       sliderTheme: _theme.sliderTheme.copyWith(
         trackHeight: 2,
