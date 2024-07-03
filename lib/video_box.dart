@@ -370,7 +370,7 @@ class _VideoBottomViewState extends State<KBottomViewBuilder> {
             children: <Widget>[
               Row(
                 children: <Widget>[
-                  Text(_timeText, style: theme.textTheme.bodyText1),
+                  Text(_timeText, style: theme.textTheme.bodyLarge),
                   Spacer(),
                   IconButton(
                     icon: Icon(_volumeIcon),
